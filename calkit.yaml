@@ -3,3 +3,12 @@ name: test-calkit-latex
 title: test-calkit-latex
 description: Testing calkit.io with LaTeX
 git_repo_url: https://github.com/alexlib/test-calkit-latex
+publications:
+  - path: paper/paper.pdf
+    kind: journal-article
+    title: jfm article
+    description: jfm article
+    stage: build-paper
+environments:
+  latex:
+    _include: .calkit/environments/latex.yaml
